@@ -64,16 +64,16 @@ foreign key (cod_ped) references locadora.pedido(cod_ped) on delete cascade,
 foreign key (cod_jogo) references locadora.jogos(cod_jogo) on delete cascade 
 );
 
-Inserção de Dados:
+-- Inserção de Dados
 
 insert into locadora.pessoa 
 (cpf, nome, funcao, telefone, rua, numero, bairro) values 
-(‘10172150060’, ‘Renan Martins Pereira’, ‘cliente’, ‘21985918183’, ‘Avenida Geremario Dantas’, ‘161’, ‘Pechincha’),
-(‘97384029456’, ‘Joao Pedro Galhardi’, ‘cliente’, ‘21995474907’, ‘Rua Princesa’, ‘468’, ‘Portuguesa’),
-(‘23597794009’, ‘Joao Gabriel Costa’, ‘funcionario’, ‘21975647980’, ‘Rua Araticum’, ‘81’, ‘Anil’),
-(‘96295690009’, ‘Maria Eduarda Costa’, ‘funcionario’, ‘21984956224’, ‘Estrada dos Bandeirantes’, ‘6700’, ‘Recreio’),
-(‘78903218051’, ‘Felipe Reed Maia’, ‘fornecedor’, ‘21997348788’, ‘Rua Paturi’, ‘875’, ‘Tanque’),
-(‘21753526094’, ‘Matheus Araujo Cruz’, ‘fornecedor’, ‘21978478943’, ‘Rua Coronel Cunha Leal’, ‘253’, ‘Engenho de Dentro’);
+(‘10172150060’, ‘Renan Martins Pereira’, ‘cliente’, ‘21985992183’, ‘Avenida Mário Rocha’, ‘11’, ‘Pechincha’),
+(‘97384029456’, ‘Joao Pedro Galhardi’, ‘cliente’, ‘21995034907’, ‘Rua Princesa’, ‘468’, ‘Portuguesa’),
+(‘23597794009’, ‘Joao Gabriel Costa’, ‘funcionario’, ‘21975664980’, ‘Rua Atum’, ‘81’, ‘Anil’),
+(‘96295690009’, ‘Maria Eduarda Costa’, ‘funcionario’, ‘21986456224’, ‘Estrada dos Bandeirantes’, ‘6700’, ‘Recreio’),
+(‘78903218051’, ‘Felipe Reed Maia’, ‘fornecedor’, ‘21997928788’, ‘Rua Paturi’, ‘875’, ‘Tanque’),
+(‘21753526094’, ‘Matheus Araujo Cruz’, ‘fornecedor’, ‘21978658943’, ‘Rua Coronel Cunha Leal’, ‘253’, ‘Engenho de Dentro’);
 
 insert into locadora.funcionario
 (cpf_fun) values
