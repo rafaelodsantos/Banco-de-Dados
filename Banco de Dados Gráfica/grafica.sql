@@ -134,7 +134,7 @@ insert into grafica.fornece
 (‘084.826.530-08’, '1'),
 (‘084.826.530-08’, '4');
 
--- Consultas
+-- Consultas:
 
 select * from pessoa where cidade = 'Rio de Janeiro' and ident = 'cliente';
 select * from pessoa where bairro = 'Botafogo' and ident = 'funcionario';
